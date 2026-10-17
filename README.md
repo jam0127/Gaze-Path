@@ -2,3 +2,6 @@
 
 # Workshop
 This file contains the hands-on-exercise presented in the workshop (https://docs.google.com/forms/d/e/1FAIpQLScSX0-WJSmrKr6ZJBwwLPkHCYq8LXVO30RIpY0cutJ1WCOIXg/viewform?usp=publish-editor), the results, and a pptx reporting the data.
+
+# Script
+This file contains the gaze path classification module of the TPRDB table-generation pipeline. These scripts are not standalone programs. They are designed to be integrated into a larger script (TPR-DB_Tables.ipynb) that reads .fd files and produces the full TPRDB table. The scripts here are responsible for one specific step: assigning a gaze path label to each fixation.
